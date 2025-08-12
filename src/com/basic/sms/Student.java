@@ -46,8 +46,9 @@ public class Student {
 	}
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
-		return super.toString();
+		//return super.toString();
+	    return id + "\t" + name + "\t" + gpa + "\t" + city + "\t" + University;
+
 	}
 	
 
